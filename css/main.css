@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Fustat", sans-serif; */
+    background: #141414;
+    color: #F0F0F0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.nav {
+    backdrop-filter: blur(34px);
+    background: rgba(20, 20, 20, 0.8);
+    padding: 10px 0;
+    /* border: 1px solid #fff; */
+    position: sticky;
+    top: 0;
+}
+
+.nav .burger {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.nav>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    font-weight: 500;
+}
+
+.link {
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #eb3a13;
+}
+
+.header>.content {
+    height: 747px;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 140px;
+    color: #b31d1e;
+    /* background: rgba(0, 0, 0, 1);
+    opacity: 1; */
+    /* box-shadow: inset 10px 10px 50px blue;
+    box-shadow: 0px 0px 50px 0px blue; */
+    /* text-shadow: 10px 10px 5px blue; */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .more {
+    border-radius: 4px;
+    max-width: 265px;
+    width: 100%;
+    height: 64px;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #ffa600 0%, #e41818 100%);
+    /* background: linear-gradient(30deg, red, blue, green, yellow); */
+    font-weight: 800;
+    font-size: 24px;
+    color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.porsche {
+    display: flex;
+    gap: 30px;
+    margin-top: 114px;
+    align-items: start;
+}
+
+.title {
+    font-size: 40px;
+    color: #eb3a13;
+    margin-bottom: 30px;
+}
+
+.porsche p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.porsche img {
+    max-width: 540px;
+    width: 100%;
+}
+
+.gallery {
+    margin-top: 124px;
+}
+
+.gallery .content {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    border-radius: 4px;
+    width: 40%;
+    flex-grow: 1;
+}
+
+.gallery .big {
+    width: 100%;
+}
+
+.about {
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+
+.about p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 152px;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.footer {
+    background: #1f1f1f;
+    padding-top: 38px;
+    padding-bottom: 62px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    margin-right: auto;
+}
+
+input,
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+    /* outline: 5px solid red; */
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+form input {
+    font-family: "Fustat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #f0f0f0;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+form input::placeholder {
+    color: #f0f0f0;
+}
+
+form button {
+    border-radius: 4px;
+    background: linear-gradient(135deg, #ffa600 0%, #e41818 100%);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    padding: 9px;
+    margin-top: 30px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 51px;
+}
+
+.footer .list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.footer .subtitle {
+    font-size: 16px;
+    line-height: 90%;
+}
