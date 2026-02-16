@@ -49,6 +49,13 @@ html {
     display: none;
 }
 
+.window h2{
+    text-align: center;
+    font-weight: 400;
+    font-style: 24px;
+    color: blue;
+}
+
 .window:target {
     display: flex;
 }
